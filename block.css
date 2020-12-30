@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	font-family: sans-serif;
+	font-size:1em;
+
+}
+div{
+	float:left;
+}
+h1{
+	color:red;
+	font-size: 1.5em;
+	position:relative;
+	/*left:45%;*/
+	margin: 15px;
+	width: 100%;
+	text-align: center;
+}
+
+.title {
+    font-size: 1em;
+    margin-left: 80%;
+    margin-right: -11px;
+    margin-top: -11px;
+    margin-bottom: 2px;
+    padding: 4px;
+    padding-left: 58px;
+    padding-right: 58px;
+    border: solid red 1px;
+    float: right;
+    font-weight: bold;
+}
+/*div{
+	float:left;
+}*/
+p {
+    background-color: black;
+    color: white;
+    border: solid red 1px;
+    float: left;
+    position: relative;
+    margin: 10px;
+    padding:10px;
+}
+
+@media (min-width: 992px){
+	.box{
+		width: 33.33%;
+		float: left;
+	}
+}
+/* at resolution 991 no media queries were applied , thats why putting 992 limit in below @media to remove the bug.*/
+
+@media (min-width: 768px) and (max-width: 992px){
+	.box1{
+		width: 50%;
+	}
+	.box2{
+		width: 50%;
+	}
+	.box3{
+		width: 100%;
+	}
+}
+@media (min-width: 767px){
+	.row{
+		width:100%;
+	}
+}
+
+
