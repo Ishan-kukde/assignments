@@ -1,2 +1,2 @@
 # assignments
-it contains the assignments html and css files.
+It contains the solution of module 2 coding assignment of html,css, javascript coursera.
